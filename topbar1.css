@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    font-family:sans-serif;
+}
+    ul{
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .topbar-parent{
+       
+        display: grid;
+	grid-template-columns: 1fr 1fr;
+
+    }
+    .topbar-left ul{
+display: flex;
+column-gap: 40px;
+
+    }
+    .topbar-right ul{
+display: flex;
+column-gap: 30px;
+justify-content:end;
+
+
+    }
+    .topbar-section{
+        background:#173a69 ;
+    }
+ .topbar-section a{
+color: aliceblue;
+font-size: 15px;
+
+ }
